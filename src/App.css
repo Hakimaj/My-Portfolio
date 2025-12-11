@@ -1,0 +1,24 @@
+/* Container for content */
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  position: relative;
+  z-index: 10; /* Above the 3D background */
+}
+
+/* Glassmorphism Utility */
+.glass {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Text Gradient for Abdulhakim */
+.text-gradient {
+  background: linear-gradient(to right, #fff 0%, #a5a5a5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
